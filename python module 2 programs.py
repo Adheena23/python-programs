@@ -177,21 +177,8 @@ def even_numbers():
 
 print(even_numbers())
 
-Describe the concept of recursive function in Python with suitable example(may 2024)
-Concept of Recursive Function in Python
-A recursive function is a function that calls itself to solve a problem by breaking it down into smaller subproblems. It must have a base case to stop the recursion.
 
-Example: Factorial using Recursion
-
-def factorial(n):
-    if n == 0 or n == 1: 
-        return 1
-    else:
-        return n * factorial(n - 1) 
-print(factorial(5))  
-Recursion is useful for problems like factorial, Fibonacci sequence, and tree traversals.
-
-# Create a Python program that uses a dictionary to store the names and ages of 
+#15. Create a Python program that uses a dictionary to store the names and ages of 
 # people. Ask the user to enter a name, and the program should display the age of 
 # that person.
 (May 2024)
